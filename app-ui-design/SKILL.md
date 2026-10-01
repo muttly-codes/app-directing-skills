@@ -64,10 +64,10 @@ Components and screens consume semantic tokens rather than raw palette values.
 
 ### Contrast verification
 
-Run:
+From the project root, run this skill's checker using its actual installed path:
 
 ```bash
-python3 scripts/contrast_check.py product/ui/tokens.json
+python3 <path-to-app-ui-design>/scripts/contrast_check.py product/ui/tokens.json
 ```
 
 If validation fails, fix the relevant primitive or semantic mapping and re-run. Do not lower a valid threshold merely to pass the checker. Paste the passing output into `direction.md` as gate evidence.

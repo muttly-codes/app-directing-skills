@@ -51,12 +51,12 @@ Do not collect data merely because the analytics platform makes it easy.
 
 ### Event taxonomy
 
-Prefer stable, descriptive, implementation-independent event names using past tense, snake_case, and verb + object where appropriate, e.g.:
+Prefer stable, descriptive, implementation-independent event names using past tense, snake_case, and verb + object where appropriate. Illustrative names from different kinds of app — derive real ones from this product's own flows:
 
 - `signed_up`
-- `created_reel`
-- `imported_clip`
-- `completed_export`
+- `created_project`
+- `sent_invite`
+- `completed_checkout`
 
 One conceptual action should have one canonical name. Renames after launch are migrations.
 
